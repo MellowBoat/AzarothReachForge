@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "azaroths_reach:item/rough_opal"
+  }
+}
