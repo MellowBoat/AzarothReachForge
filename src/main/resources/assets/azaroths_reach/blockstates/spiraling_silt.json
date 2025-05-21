@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {"model": "azaroths_reach:block/spiraling_silt"
+
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_silt",
+        "y": 90
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_silt",
+        "y": 180
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_silt",
+        "y": 270
+      }
+    ]
+  }
+}

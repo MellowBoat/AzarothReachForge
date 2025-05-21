@@ -1,6 +1,6 @@
 {
   "variants": {
-    "": [
+    "snowy=false": [
       {"model": "azaroths_reach:block/spiraling_sod"
 
       },
@@ -16,6 +16,9 @@
         "model": "azaroths_reach:block/spiraling_sod",
         "y": 270
       }
-    ]
+    ],
+    "snowy=true": {
+      "model": "azaroths_reach:block/snowy_sod"
+    }
   }
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "azaroths_reach:block/varied_flowerbed_4",
+  "textures": {
+    "petals": "azaroths_reach:block/pale_petals",
+    "stem": "azaroths_reach:block/pale_petals_stem"
+  }
+}

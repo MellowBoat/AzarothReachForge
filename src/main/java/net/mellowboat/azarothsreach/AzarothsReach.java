@@ -4,7 +4,10 @@ import com.mojang.logging.LogUtils;
 import net.mellowboat.azarothsreach.block.ModBlocks;
 import net.mellowboat.azarothsreach.item.ModCreativeModeTabs;
 import net.mellowboat.azarothsreach.item.ModItems;
+import net.mellowboat.azarothsreach.worldgen.tree.ModTrunkPlacerTypes;
 import net.minecraft.client.renderer.BiomeColors;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
@@ -40,6 +43,8 @@ public class AzarothsReach
 
         modEventBus.addListener(this::commonSetup);
 
+        ModTrunkPlacerTypes.register(modEventBus);
+
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
     }
@@ -53,21 +58,19 @@ public class AzarothsReach
     }
 
 
-
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {
-
-    }
-
-
-
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
     {
+
+
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.DESERT_GLASS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.SHATTERED_DESERT_GLASS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.SPIRALING_SOD.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.PALE_PETALS.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.GOLDEN_DANDELION.get(), RenderType.cutout());
         }
 
         @SubscribeEvent
@@ -75,7 +78,14 @@ public class AzarothsReach
             event.register(
                     (pState, pLevel, pPos, pTintIndex)
                             ->  BiomeColors.getAverageGrassColor(pLevel, pPos),
-                    ModBlocks.SPIRALING_SOD.get()
+                    ModBlocks.SPIRALING_SOD.get(),ModBlocks.PALE_PETALS.get(),
+                    ModBlocks.GOLDEN_DANDELION.get()
+            );
+
+            event.register(
+                    (pState, pLevel, pPos, pTintIndex)
+                            ->  BiomeColors.getAverageFoliageColor(pLevel, pPos),
+                    ModBlocks.WEEPING_OAK_LEAVES.get()
             );
 
         }
@@ -84,7 +94,7 @@ public class AzarothsReach
         public static void registerItemColors(RegisterColorHandlersEvent.Item event){
             event.register(
                     (pStack, pTintIndex) -> 15513968,
-                    ModBlocks.SPIRALING_SOD.get().asItem()
+                    ModBlocks.SPIRALING_SOD.get().asItem(), ModBlocks.WEEPING_OAK_LEAVES.get().asItem()
             );
 
         }

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {"model": "azaroths_reach:block/compressing_clay"
+
+      },
+      {
+        "model": "azaroths_reach:block/compressing_clay",
+        "y": 90
+      },
+      {
+        "model": "azaroths_reach:block/compressing_clay",
+        "y": 180
+      },
+      {
+        "model": "azaroths_reach:block/compressing_clay",
+        "y": 270
+      }
+    ]
+  }
+}

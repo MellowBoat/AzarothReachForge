@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "up": "minecraft:block/powdered_snow",
+    "north": "azaroths_reach:block/snowy_sod_side",
+    "south": "azaroths_reach:block/snowy_sod_side",
+    "east": "azaroths_reach:block/snowy_sod_side",
+    "west": "azaroths_reach:block/snowy_sod_side",
+    "down": "azaroths_reach:block/spiraling_clay",
+    "particle": "azaroths_reach:block/snowy_sod_side"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "azaroths_reach:block/biome_tinted_cross",
+  "textures": {
+    "cross": "azaroths_reach:block/golden_dandelion",
+    "overlay": "azaroths_reach:block/golden_dandelion_overlay"
+  }
+}

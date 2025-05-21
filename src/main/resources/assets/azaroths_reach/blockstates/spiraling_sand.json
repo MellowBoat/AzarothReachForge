@@ -1,0 +1,51 @@
+{
+  "variants": {
+    "": [
+      {"model": "azaroths_reach:block/spiraling_sand"
+
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sand",
+        "y": 90
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sand",
+        "y": 180
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sand",
+        "y": 270
+      },
+      {"model": "azaroths_reach:block/spiraling_sand_1"
+
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sand_1",
+        "y": 90
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sand_1",
+        "y": 180
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sand_1",
+        "y": 270
+      },
+      {"model": "azaroths_reach:block/spiraling_sand_2"
+
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sand_2",
+        "y": 90
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sand_2",
+        "y": 180
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sand_2",
+        "y": 270
+      }
+    ]
+  }
+}

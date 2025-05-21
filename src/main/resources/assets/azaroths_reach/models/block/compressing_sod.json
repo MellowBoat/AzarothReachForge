@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "render_type": "cutout_mipped",
+  "textures": {
+    "up": "azaroths_reach:block/spiraling_sod_top",
+    "north": "azaroths_reach:block/compressing_sod_side",
+    "south": "azaroths_reach:block/compressing_sod_side",
+    "east": "azaroths_reach:block/compressing_sod_side",
+    "west": "azaroths_reach:block/compressing_sod_side",
+    "down": "azaroths_reach:block/spiraling_shale_bottom",
+    "particle": "azaroths_reach:block/spiraling_clay",
+    "overlay": "azaroths_reach:block/spiraling_sod_side_overlay"
+  },
+  "elements": [
+
+    {"from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": { "uv": [0, 0, 16, 16], "texture": "#down", "cullface": "down" },
+        "up": { "uv": [0, 0, 16, 16], "texture": "#up", "cullface": "up", "tintindex": 0 },
+        "north": { "uv": [0, 0, 16, 16], "texture": "#north", "cullface": "north" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#south", "cullface": "south" },
+        "east": { "uv": [0, 0, 16, 16], "texture": "#east", "cullface": "east" },
+        "west": { "uv": [0, 0, 16, 16], "texture": "#west", "cullface": "west" }
+      }
+    },
+    {"from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#overlay", "tintindex": 0, "cullface": "north" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#overlay", "tintindex": 0, "cullface": "south" },
+        "east": { "uv": [0, 0, 16, 16], "texture": "#overlay", "tintindex": 0, "cullface": "east" },
+        "west": { "uv": [0, 0, 16, 16], "texture": "#overlay", "tintindex": 0, "cullface": "west" }
+      }
+    }
+  ]
+
+}
