@@ -31,6 +31,16 @@ public class ModBlocks {
     public static final RegistryObject<Block> SPIRALING_SOD = registerBlock("spiraling_sod",
             () -> new SpiralingSod(BlockBehaviour.Properties.copy(Blocks.MOSS_BLOCK).randomTicks()));
 
+    public static final RegistryObject<Block> SPIRALING_SANDSTONE = registerBlock("spiraling_sandstone",
+            () -> new SpiralingSandstoneBlock(BlockBehaviour.Properties.copy(Blocks.SANDSTONE)));
+
+    public static final RegistryObject<Block> SPIRALING_LIMESTONE = registerBlock("spiraling_limestone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SANDSTONE)));
+
+
+    public static final RegistryObject<Block> SPIRALING_SOD_PATH = registerBlock("spiraling_sod_path",
+            () -> new DirtPathBlock(BlockBehaviour.Properties.copy(Blocks.MOSS_BLOCK).noOcclusion()));
+
     public static final RegistryObject<Block> MYCELIAL_CARPET = registerBlock("mycelial_carpet",
             () -> new MycelialCarpet(BlockBehaviour.Properties.copy(Blocks.MYCELIUM).randomTicks()));
 
@@ -38,11 +48,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> SPIRALING_CLAY = registerBlock("spiraling_clay",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.ROOTED_DIRT)));
 
-    public static final RegistryObject<Block> COMPRESSING_CLAY = registerBlock("compressing_clay",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
-
     public static final RegistryObject<Block> SPIRALING_SHALE = registerBlock("spiraling_shale",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
+            () -> new SpiralingShaleBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
 
     public static final RegistryObject<Block> SPIRALING_SAND = registerBlock("spiraling_sand",
             () -> new SandBlock(15982788, BlockBehaviour.Properties.copy(Blocks.SUSPICIOUS_SAND)));

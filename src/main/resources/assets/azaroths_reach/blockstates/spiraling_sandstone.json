@@ -1,0 +1,38 @@
+{
+  "variants": {
+    "snowy=false": [
+      {"model": "azaroths_reach:block/spiraling_sandstone"
+
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sandstone",
+        "y": 90
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sandstone",
+        "y": 180
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sandstone",
+        "y": 270
+      }
+    ],
+    "snowy=true":[
+      {"model": "azaroths_reach:block/spiraling_sandstone_transition"
+
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sandstone_transition",
+        "y": 90
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sandstone_transition",
+        "y": 180
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_sandstone_transition",
+        "y": 270
+      }
+    ]
+  }
+}

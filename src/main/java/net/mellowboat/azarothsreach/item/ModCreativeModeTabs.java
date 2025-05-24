@@ -57,11 +57,13 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.SPIRALING_SOD.get());
                         pOutput.accept(ModBlocks.MYCELIAL_CARPET.get());
+                        pOutput.accept(ModBlocks.SPIRALING_SOD_PATH.get());
                         pOutput.accept(ModBlocks.SPIRALING_CLAY.get());
                         pOutput.accept(ModBlocks.SPIRALING_SILT.get());
+                        pOutput.accept(ModBlocks.SPIRALING_LIMESTONE.get());
                         pOutput.accept(ModBlocks.SPIRALING_PEBBLES.get());
                         pOutput.accept(ModBlocks.SPIRALING_SAND.get());
-                        pOutput.accept(ModBlocks.COMPRESSING_CLAY.get());
+                        pOutput.accept(ModBlocks.SPIRALING_SANDSTONE.get());
                         pOutput.accept(ModBlocks.SPIRALING_SHALE.get());
                         pOutput.accept(ModBlocks.DESERT_GLASS.get());
                         pOutput.accept(ModBlocks.SHATTERED_DESERT_GLASS.get());

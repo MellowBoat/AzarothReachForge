@@ -69,6 +69,7 @@ public class AzarothsReach
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.DESERT_GLASS.get(), RenderType.translucent());
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.SHATTERED_DESERT_GLASS.get(), RenderType.translucent());
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.SPIRALING_SOD.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.SPIRALING_SOD_PATH.get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.PALE_PETALS.get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.GOLDEN_DANDELION.get(), RenderType.cutout());
         }
@@ -85,7 +86,7 @@ public class AzarothsReach
             event.register(
                     (pState, pLevel, pPos, pTintIndex)
                             ->  BiomeColors.getAverageFoliageColor(pLevel, pPos),
-                    ModBlocks.WEEPING_OAK_LEAVES.get()
+                    ModBlocks.WEEPING_OAK_LEAVES.get(), ModBlocks.SPIRALING_SOD_PATH.get()
             );
 
         }

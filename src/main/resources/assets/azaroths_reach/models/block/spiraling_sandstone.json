@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "up": "azaroths_reach:block/spiraling_sandstone_bottom",
+    "north": "azaroths_reach:block/spiraling_sandstone",
+    "south": "azaroths_reach:block/spiraling_sandstone",
+    "east": "azaroths_reach:block/spiraling_sandstone",
+    "west": "azaroths_reach:block/spiraling_sandstone",
+    "down": "azaroths_reach:block/spiraling_sandstone_bottom",
+    "particle": "azaroths_reach:block/spiraling_sandstone"
+  }
+}

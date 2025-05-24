@@ -29,6 +29,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         logBlock(((RotatedPillarBlock) ModBlocks.WEEPING_OAK_LOG.get()));
         blockItem(ModBlocks.WEEPING_OAK_LOG);
 
+
+
         axisBlock(((RotatedPillarBlock) ModBlocks.WEEPING_OAK_WOOD.get()),
                 blockTexture(ModBlocks.WEEPING_OAK_LOG.get()),
                 blockTexture(ModBlocks.WEEPING_OAK_LOG.get()));

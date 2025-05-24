@@ -19,12 +19,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
 
         this.otherWhenSilkTouch(ModBlocks.SPIRALING_SOD.get(), ModBlocks.SPIRALING_CLAY.get());
+        this.otherWhenSilkTouch(ModBlocks.SPIRALING_SOD_PATH.get(), ModBlocks.SPIRALING_CLAY.get());
         this.otherWhenSilkTouch(ModBlocks.MYCELIAL_CARPET.get(), ModBlocks.SPIRALING_CLAY.get());
         this.dropSelf(ModBlocks.SPIRALING_CLAY.get());
+        this.dropSelf(ModBlocks.SPIRALING_LIMESTONE.get());
+        this.dropSelf(ModBlocks.SPIRALING_SANDSTONE.get());
         this.dropSelf(ModBlocks.SPIRALING_SILT.get());
         this.dropSelf(ModBlocks.SPIRALING_PEBBLES.get());
         this.dropSelf(ModBlocks.SPIRALING_SAND.get());
-        this.dropSelf(ModBlocks.COMPRESSING_CLAY.get());
         this.dropSelf(ModBlocks.SPIRALING_SHALE.get());
         this.dropWhenSilkTouch(ModBlocks.DESERT_GLASS.get());
         this.dropWhenSilkTouch(ModBlocks.SHATTERED_DESERT_GLASS.get());

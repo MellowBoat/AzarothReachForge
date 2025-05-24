@@ -5,10 +5,13 @@
   "item.azaroths_reach.opal_shard": "Opal Shard",
 
   "block.azaroths_reach.spiraling_sod": "Spiraling Sod",
+  "block.azaroths_reach.spiraling_sandstone": "Spiraling Sandstone",
+  "block.azaroths_reach.spiraling_limestone": "Spiraling Limestone",
+  "block.azaroths_reach.spiraling_sod_path": "Spiraling Sod Path",
   "block.azaroths_reach.pale_petals": "Pale Petals",
   "block.azaroths_reach.golden_dandelion": "Golden Dandelion",
   "block.azaroths_reach.mycelial_carpet": "Mycelial_Carpet",
-  "block.azaroths_reach.compressing_clay": "Compressing Clay",
+
   "block.azaroths_reach.compressing_sod": "Compressing Sod",
   "block.azaroths_reach.spiraling_sand": "Spiraling Sand",
   "block.azaroths_reach.spiraling_pebbles": "Spiraling Pebbles",

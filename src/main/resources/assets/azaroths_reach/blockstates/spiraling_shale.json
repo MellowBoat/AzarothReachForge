@@ -1,7 +1,38 @@
 {
   "variants": {
-    "": {
-      "model": "azaroths_reach:block/spiraling_shale"
-    }
+    "snowy=false": [
+      {"model": "azaroths_reach:block/spiraling_shale"
+
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_shale",
+        "y": 90
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_shale",
+        "y": 180
+      },
+      {
+        "model": "azaroths_reach:block/spiraling_shale",
+        "y": 270
+      }
+    ],
+    "snowy=true":[
+      {"model": "azaroths_reach:block/compressing_clay"
+
+      },
+      {
+        "model": "azaroths_reach:block/compressing_clay",
+        "y": 90
+      },
+      {
+        "model": "azaroths_reach:block/compressing_clay",
+        "y": 180
+      },
+      {
+        "model": "azaroths_reach:block/compressing_clay",
+        "y": 270
+      }
+    ]
   }
 }
