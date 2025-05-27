@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "azaroths_reach:block/weeping_oak_planks"
+  }
+}

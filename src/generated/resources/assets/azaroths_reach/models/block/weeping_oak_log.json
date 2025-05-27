@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "azaroths_reach:block/weeping_oak_log_top",
+    "side": "azaroths_reach:block/weeping_oak_log"
+  }
+}

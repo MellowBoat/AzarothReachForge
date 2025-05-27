@@ -1,0 +1,6 @@
+// 1.20.1	2025-03-29T13:50:29.9342434	Tags for minecraft:block mod id azaroths_reach
+97759080d6d7e8a8d01f05cc848963a015589cfd data/minecraft/tags/blocks/dirt.json
+ee69addf4978b7b28be8f992c2eabb3382cffa99 data/minecraft/tags/blocks/fences.json
+bb5d4786c9131f6f63a154e5885dd00bb3dcb70f data/minecraft/tags/blocks/fence_gates.json
+362db7cbb9001ad7c7ceba8aa6afaa860cbc73aa data/minecraft/tags/blocks/logs_that_burn.json
+dbf02bd3fd3eff66590882a2ca277937ab74c06b data/minecraft/tags/blocks/planks.json

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "o": {
+      "item": "azaroths_reach:rough_opal"
+    }
+  },
+  "pattern": [
+    "ooo",
+    "ooo",
+    "ooo"
+  ],
+  "result": {
+    "item": "azaroths_reach:rough_opal_block"
+  },
+  "show_notification": true
+}

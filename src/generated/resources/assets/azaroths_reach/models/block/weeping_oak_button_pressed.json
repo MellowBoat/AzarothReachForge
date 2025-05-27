@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "azaroths_reach:block/weeping_oak_planks"
+  }
+}

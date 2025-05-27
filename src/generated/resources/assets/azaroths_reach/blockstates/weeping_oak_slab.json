@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "azaroths_reach:block/weeping_oak_slab"
+    },
+    "type=double": {
+      "model": "azaroths_reach:block/weeping_oak_planks"
+    },
+    "type=top": {
+      "model": "azaroths_reach:block/weeping_oak_slab_top"
+    }
+  }
+}

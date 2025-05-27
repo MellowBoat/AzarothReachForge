@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "azaroths_reach:block/weeping_oak_pressure_plate"
+    },
+    "powered=true": {
+      "model": "azaroths_reach:block/weeping_oak_pressure_plate_down"
+    }
+  }
+}

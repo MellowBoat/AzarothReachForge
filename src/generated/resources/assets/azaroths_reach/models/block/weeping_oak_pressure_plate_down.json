@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "azaroths_reach:block/weeping_oak_planks"
+  }
+}

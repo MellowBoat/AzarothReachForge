@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "azaroths_reach:block/weeping_oak_planks",
+    "side": "azaroths_reach:block/weeping_oak_planks",
+    "top": "azaroths_reach:block/weeping_oak_planks"
+  }
+}

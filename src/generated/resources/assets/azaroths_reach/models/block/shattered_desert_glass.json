@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "azaroths_reach:block/shattered_desert_glass"
+  }
+}
